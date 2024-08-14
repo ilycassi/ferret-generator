@@ -6,7 +6,7 @@ import requests
 from io import BytesIO
 
 url = "https://ferrets.leodog896.com/v1/image/random"
-
+#ahhhhhhhhh
 def img_from_url():
     response = requests.get(url)
     img = Image.open(BytesIO(response.content))
